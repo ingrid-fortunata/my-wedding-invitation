@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+
+.groom-container {
+  display: flex;
+  /* align-items: center; */
+}
+
+.groom-photo {
+  width: auto;
+  height: 60vh;
+  margin-left: 28vh;
+}
+
+.groom-information {
+  /* background-color: rgba(255, 235, 205, 0.4); */
+  background-color: blanchedalmond;
+  padding: 4em 1em 2em 1em;
+  max-width: 50%;
+  max-height: 60vh;
+}
+
+.groom-information h1 {
+  font-size: 1.22222rem;
+  font-weight: 600;
+  color: #3d3d3d;
+  margin: 0 0 0.7em;
+}
+
+.groom-information p {
+  color: #767878;
+  line-height: 1.8em;
+  margin: 0 0 10px;
+}
+
+.signature {
+  font-family: "Great Vibes", cursive;
+  font-size: 1.22222rem;
+}
+
+@media screen and (max-width: 600px) {
+  .groom-photo {
+    margin-left: 0;
+  }
+
+  .groom-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .groom-information {
+    margin: 0;
+    min-width: 207px;
+    max-width: 450px;
+  }
+}

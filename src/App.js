@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Countdown from "./Components/Countdown/Countdown";
+import Jumbotron from "./Components/Jumbotron/Jumbotron";
+import Navbar2 from "./Components/Navbar/Navbar";
+import CoupleIndex from "./Pages/Couple/CoupleIndex";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Jumbotron />
+      <Navbar2 />
+      <CoupleIndex />
+      <Countdown />
+      {/* <h1>tes</h1> */}
     </div>
   );
 }

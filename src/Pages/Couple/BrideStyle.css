@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+
+.bride-container {
+  display: flex;
+}
+
+.bride-photo {
+  width: auto;
+  height: 60vh;
+  /* margin-left: 20vh; */
+}
+
+.bride-information {
+  /* background-color: blanchedalmond; */
+  background-color: rgba(255, 235, 205, 0.4);
+  padding: 4em 1em 2em 1em;
+  margin-left: 28vh;
+  max-width: 50%;
+  max-height: 60vh;
+}
+
+.bride-information h1 {
+  font-size: 1.22222rem;
+  font-weight: 600;
+  color: #3d3d3d;
+  margin: 0 0 0.7em;
+}
+
+.bride-information p {
+  color: #767878;
+  line-height: 1.8em;
+  margin: 0 0 10px;
+}
+
+.signature {
+  font-family: "Great Vibes", cursive;
+  font-size: 1.22222rem;
+}
+
+@media screen and (max-width: 600px) {
+  .bride-information {
+    margin-left: 0;
+    min-width: 207px;
+    max-width: 450px;
+  }
+  .bride-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
