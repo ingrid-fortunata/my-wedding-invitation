@@ -13,9 +13,9 @@ export default function Groom() {
         </p>
         <p className="signature"> - Ingrid</p>
       </div>
-      <div>
+      {/* <div> */}
         <img src={ingridphoto} alt="brideimage" className="bride-photo" />
-      </div>
+      {/* </div> */}
     </div>
   );
 }

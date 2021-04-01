@@ -8,13 +8,15 @@
   width: auto;
   height: 60vh;
   /* margin-left: 20vh; */
+  margin-right: auto;
 }
 
 .bride-information {
   /* background-color: blanchedalmond; */
   background-color: rgba(255, 235, 205, 0.4);
   padding: 4em 1em 2em 1em;
-  margin-left: 28vh;
+  /* margin-left: 28vh; */
+  margin-left: auto;
   max-width: 50%;
   max-height: 60vh;
 }
@@ -46,5 +48,8 @@
   .bride-container {
     flex-direction: column;
     align-items: center;
+  }
+  .bride-photo {
+    margin-right: 0;
   }
 }

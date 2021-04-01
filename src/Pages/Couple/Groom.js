@@ -5,9 +5,9 @@ import "./GroomStyle.css";
 export default function Groom() {
   return (
     <div className="groom-container">
-      <div>
+      {/* <div className="groomphoto"> */}
         <img src={luckyphoto} alt="groomimage" className="groom-photo" />
-      </div>
+      {/* </div> */}
       <div className="groom-information">
         <h1>THE GROOM</h1>
         <p>

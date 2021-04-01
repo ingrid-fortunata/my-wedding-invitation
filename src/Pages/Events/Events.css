@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+
+.events-container {
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.events-main-title {
+  position: relative;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+  width: 30%;
+}
+
+.events-main-title img {
+  width: 100%;
+  height: 5%;
+}
+
+.events-maintitle-text {
+  z-index: 1;
+  position: absolute;
+  left: 20%;
+  top: 30%;
+  font-family: "Great Vibes", cursive;
+  font-size: 3.3vw;
+  color: goldenrod;
+}
+
+.events-maincontainer {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.events-container-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4% 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.events-image {
+  flex-basis: 50%;
+}
+
+.events-image img {
+  max-width: 60%;
+  max-height: 70vh;
+  margin-left: 20%;
+}
+
+.events-text {
+  font-size: 100%;
+  width: 70%;
+  padding: 0 10% 0 4%;
+}
+
+.events-text h3 {
+  font-weight: 400;
+  color: black;
+  font-size: 2.5vw;
+}
+
+.events-text h5 {
+  font-size: 1.5vw;
+  height: 100%;
+  /* padding: 2% 0; */
+  color: #a9a9a9;
+}
+
+.events-text p {
+  font-size: 1.3vw;
+}
+
+.events-text a {
+  text-decoration: none;
+  color: rgb(186, 186, 0);
+  font-size: 1.3vw;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+  .events-container-container {
+    flex-direction: column;
+  }
+}

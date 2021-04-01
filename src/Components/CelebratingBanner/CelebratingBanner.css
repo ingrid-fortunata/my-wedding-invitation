@@ -1,22 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
 
-.countdown-container {
+.celebratingbanner-container {
   position: relative;
   /* margin-bottom: 2em; */
 }
 
-.countdown-background {
+.celebratingbanner-background {
   /* display: flex;
   justify-content: space-around; */
   height: 55vh;
 }
 
-.countdown-background img {
+.celebratingbanner-background img {
   width: 100%;
   height: 50vh;
 }
 
-.countdown-overlay {
+.celebratingbanner-overlay {
   background-color: rgba(0, 0, 0, 0.1);
   position: relative;
   /* top: 10%; */
@@ -27,15 +27,18 @@
   /* overflow-y: hidden; */
 }
 
-.countdown-overlay-content {
+.celebratingbanner-overlay-content {
   position: relative;
-  top: 18%;
+  top: 28%;
   display: flex;
-  left: 10%;
+  /* left: 10%; */
   width: 89%;
+  justify-content: center;
+  text-align: center;
+  margin-left: 8vw;
 }
-.countdown-name {
-  font-family: "Great Vibes", cursive;
+.celebratingbanner-name {
+  /* font-family: "Great Vibes", cursive; */
   color: white;
   font-size: 2.5vw;
   font-weight: 500;
@@ -48,7 +51,7 @@
   width: 40vw;
 }
 
-.countdown-name2 {
+.celebratingbanner-name2 {
   font-family: "Great Vibes", cursive;
   color: white;
   font-size: 5vw;
@@ -61,23 +64,4 @@
   margin-right: auto;
   width: 40vw;
   /* height: 50vw; */
-}
-
-.countdown-flipper {
-  /* margin-top: 35vh; */
-}
-
-.flip-countdown {
-  width: 40vw;
-  color: black;
-}
-
-@media screen and (max-width: 850px) {
-  /* .countdown-flipper {
-    margin-top: 25vh;
-  } */
-  /* .flip-countdown.size-medium .flip-countdown-piece .flip-countdown-card .flip-countdown-card-sec {
-    margin: 0 0.025em;
-    font-size: 32px;
-  } */
 }

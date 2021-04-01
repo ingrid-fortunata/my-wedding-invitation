@@ -5,10 +5,15 @@
   /* align-items: center; */
 }
 
+.groomphoto{
+  
+}
+
 .groom-photo {
   width: auto;
   height: 60vh;
-  margin-left: 28vh;
+  /* margin-left: 28vh; */
+  margin-left: auto;
 }
 
 .groom-information {
@@ -17,6 +22,7 @@
   padding: 4em 1em 2em 1em;
   max-width: 50%;
   max-height: 60vh;
+  margin-right: auto;
 }
 
 .groom-information h1 {
