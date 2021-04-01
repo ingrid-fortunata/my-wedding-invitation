@@ -12,7 +12,7 @@ export default function Events() {
     <div className="events-container">
       <div className="events-main-title">
         <img src={textdecor} alt="textdecor" />
-        <div class="events-maintitle-text">Wedding Events</div>
+        <div className="events-maintitle-text">Wedding Events</div>
       </div>
 
       <div className="events-maincontainer">
@@ -24,9 +24,9 @@ export default function Events() {
             <h3>Holy Matrimony</h3>
             <div style={{ display: "flex" }}>
               <IoMdPin
-                size={25}
+                size={30}
                 style={{
-                  marginTop: "1.7%",
+                  //   marginTop: "1.7%",
                   width: "3vw",
                   color: "goldenrod",
                 }}

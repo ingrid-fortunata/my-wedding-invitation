@@ -11,7 +11,7 @@ export default function Timeline() {
     <div className="timeline-container">
       <div className="timeline-main-title">
         <img src={textdecor} alt="textdecor" />
-        <div class="timeline-maintitle-text">Our Journey</div>
+        <div className="timeline-maintitle-text">Our Journey</div>
       </div>
 
       <div className="content-maincontainer">

@@ -5,6 +5,8 @@ import Jumbotron from "./Components/Jumbotron/Jumbotron";
 import Navbar2 from "./Components/Navbar/Navbar";
 import CoupleIndex from "./Pages/Couple/CoupleIndex";
 import Events from "./Pages/Events/Events";
+import Family from "./Pages/Family/Family";
+import Gallery2 from "./Pages/Gallery/Gallery";
 import Timeline from "./Pages/Timeline/Timeline";
 
 function App() {
@@ -17,6 +19,8 @@ function App() {
       <Timeline />
       <CelebratingBanner />
       <Events />
+      <Family />
+      <Gallery2 />
     </div>
   );
 }

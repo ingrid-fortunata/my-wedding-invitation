@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+
+.gallery-container {
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.gallery-main-title {
+  position: relative;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+  width: 30%;
+}
+
+.gallery-main-title img {
+  width: 100%;
+  height: 5%;
+}
+
+.gallery-maintitle-text {
+  z-index: 1;
+  position: absolute;
+  left: 30%;
+  top: 30%;
+  font-family: "Great Vibes", cursive;
+  font-size: 3.3vw;
+  color: goldenrod;
+}

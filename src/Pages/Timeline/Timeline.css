@@ -56,6 +56,7 @@
   /* overflow: hidden; */
   position: relative;
   margin-top: -33vw;
+  margin-right: 0.4%;
 }
 
 .content-image-slideshow img {
@@ -112,4 +113,38 @@
 .content-verticalborder {
   border-left: 6px solid rgba(255, 217, 0, 0.372);
   height: 80vh;
+}
+
+@media screen and (max-width: 600px) {
+  .content-verticalborder {
+    display: none;
+  }
+
+  .content-container {
+    flex-direction: column;
+  }
+
+  .content-image {
+    display: none;
+  }
+
+  .content-image-slideshow {
+    display: none;
+  }
+
+  .content-text {
+    width: 80%;
+  }
+
+  .content-text h3 {
+    font-size: 5vw;
+  }
+
+  .content-text h5 {
+    font-size: 3vw;
+  }
+
+  .content-text p {
+    font-size: 2vw;
+  }
 }
