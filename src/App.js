@@ -10,24 +10,28 @@ import Footer from "./Pages/Footer/Footer";
 import Gallery2 from "./Pages/Gallery/Gallery";
 import RSVP from "./Pages/RSVP/RSVP";
 import Timeline from "./Pages/Timeline/Timeline";
-import { Element } from "react-scroll";
+// import { animateScroll as scroll } from "react-scroll";
 
 function App() {
   return (
     <div className="App">
-      <Jumbotron name="/" />
+      <Jumbotron />
       <Navbar2 />
-      <Element name="couple">
-        <CoupleIndex id="couple" />
-      </Element>
-
+      <div className="anchor" id="couple"></div>
+      <CoupleIndex />
       <Countdown />
-      <Timeline name="story" />
+      <div className="anchor" id="story"></div>
+      <Timeline />
       <CelebratingBanner />
-      <Events name="events" />
-      <Family name="family" />
-      <Gallery2 name="gallery" />
-      <RSVP name="rsvp" />
+      <div className="anchor" id="events"></div>
+      <Events />
+      <div className="anchor" id="family"></div>
+      <Family />
+      <div className="anchor" id="gallery"></div>
+      <Gallery2 />
+      <div className="anchor" id="rsvp"></div>
+      <RSVP />
+      <div style={{ backgroundColor: "goldenrod", height: "15px" }}></div>
       <Footer />
       <div
         style={{

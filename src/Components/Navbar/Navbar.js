@@ -7,19 +7,9 @@ import "./Navbar.css";
 import { animateScroll as scroll, scroller } from "react-scroll";
 
 export default function Navbar2() {
-  const toogleHome = () => {
-    scroll.scrollToTop();
-  };
-
-  const handleScroll = (name) => {
-    scroller.scrollTo(name, {
-      duration: 1500,
-      delay: 100,
-      smooth: true,
-      containerId: name,
-      offset: 50, // Scrolls to element + 50 pixels down the page
-    });
-  };
+  // const toogleHome = () => {
+  //   scroll.scrollToTop();
+  // };
 
   return (
     <Navbar
@@ -29,7 +19,7 @@ export default function Navbar2() {
       variant="light"
       sticky="top"
     >
-      <Navbar.Brand>
+      <Navbar.Brand href="#home">
         <img
           src={weddinglogo}
           width="200"
@@ -41,13 +31,13 @@ export default function Navbar2() {
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link onClick={toogleHome}>Home</Nav.Link>
-          <Nav.Link href="couple">Couple</Nav.Link>
+          <Nav.Link href="#home">Home</Nav.Link>
+          <Nav.Link href="#couple">Couple</Nav.Link>
           <Nav.Link href="#story">Story</Nav.Link>
-          <Nav.Link href="/events">Events</Nav.Link>
-          <Nav.Link href="/family">Family</Nav.Link>
-          <Nav.Link href="/gallery">Gallery</Nav.Link>
-          <Nav.Link href="/rsvp">RSVP</Nav.Link>
+          <Nav.Link href="#events">Events</Nav.Link>
+          <Nav.Link href="#family">Family</Nav.Link>
+          <Nav.Link href="#gallery">Gallery</Nav.Link>
+          <Nav.Link href="#rsvp">RSVP</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

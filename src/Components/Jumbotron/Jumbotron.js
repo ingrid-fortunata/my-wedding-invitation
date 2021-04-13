@@ -8,7 +8,7 @@ import "./Jumbotron.css";
 
 export default function Jumbotron() {
   return (
-    <div className="jumbotron-container">
+    <div className="jumbotron-container" id="home">
       <div>
         <AwesomeSlider bullets={false}>
           <div data-src={img1} />
