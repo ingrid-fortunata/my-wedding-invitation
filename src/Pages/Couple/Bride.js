@@ -8,13 +8,17 @@ export default function Groom() {
       <div className="bride-information">
         <h1>THE BRIDE</h1>
         <p>
-          Hi, I am Ingrid! Lorem Ipsum has been the industry's standard dummy
-          text ever since the 1500s, when an unknown printer took a gallery
+          Hi, I am Ingrid! Born on October 1 as the only child of the couple
+          Fortuin Japar & Liauw Mei Fong, is the child who has been eagerly
+          awaited during my parents' marriage life. I studied Pharmacy at
+          University of Indonesia. My life isn't easy because I prefer unique
+          things in life. However, I'm able to find myself and accepting who I
+          am little by little because of this wonderful man! He's my Lucky Star!
         </p>
         <p className="signature"> - Ingrid</p>
       </div>
       {/* <div> */}
-        <img src={ingridphoto} alt="brideimage" className="bride-photo" />
+      <img src={ingridphoto} alt="brideimage" className="bride-photo" />
       {/* </div> */}
     </div>
   );

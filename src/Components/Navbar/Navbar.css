@@ -17,6 +17,10 @@
   margin-left: 1em;
 }
 
+.navbar-light .navbar-nav .nav-link.active {
+  color: rgba(0, 0, 0, 0.5);
+}
+
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-collapse {
     margin-left: 2em;
