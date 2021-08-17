@@ -1,5 +1,5 @@
 import React from "react";
-import ingridphoto from "../../Assets/ingriddummy.jpg";
+import ingridphoto from "../../Assets/ingriddummy.JPG";
 import "./BrideStyle.css";
 
 export default function Groom() {

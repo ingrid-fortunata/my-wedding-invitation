@@ -31,13 +31,19 @@ function App() {
       <Gallery2 />
       <div className="anchor" id="rsvp"></div>
       <RSVP />
-      <div style={{ backgroundColor: "goldenrod", height: "15px" }}></div>
+      <div
+        style={{
+          backgroundColor: "rgba(222, 207, 105, 0.779)",
+          height: "15px",
+        }}
+      ></div>
       <Footer />
       <div
         style={{
-          backgroundColor: "goldenrod",
+          backgroundColor: "rgba(222, 207, 105, 0.779)",
           fontSize: "1.2em",
           fontWeight: "bold",
+          color: "darkgoldenrod",
           // height: "50px",
           // paddingTop: "0.5em",
         }}

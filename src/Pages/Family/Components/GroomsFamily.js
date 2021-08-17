@@ -22,7 +22,7 @@ function GroomsFamily() {
           </div>
           <div className="details">
             <h2>
-              Tumijan <span className="job-title">Groom's beloved Pops</span>
+              Tumidjan <span className="job-title">Groom's beloved Pops</span>
             </h2>
           </div>
         </div>

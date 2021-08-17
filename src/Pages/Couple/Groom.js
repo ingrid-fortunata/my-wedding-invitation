@@ -1,5 +1,5 @@
 import React from "react";
-import luckyphoto from "../../Assets/luckydummy.jpg";
+import luckyphoto from "../../Assets/luckydummy.JPG";
 import "./GroomStyle.css";
 
 export default function Groom() {
